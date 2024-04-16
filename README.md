@@ -13,9 +13,6 @@ WORK IN PROGRESS [WIP] <br /> <br />
 
 
 
-## Training Methodology
-
-
 
 ## Performance Evaluation
 
