@@ -16,7 +16,13 @@ WORK IN PROGRESS [WIP] <br /> <br />
 
 ## Performance Evaluation
 
+### Fréchet Inception Distance
+Measures the similarity between the distributions of features extracted from real images and generated images. <br />
+Lower score indicates that the generated images are more similar to the real images in terms of their visual features. <br />
 
+### Inception Score
+Measures the quality and diversity of generated images based on the output probabilities of an image classification model (Pre-trained ResNet18 Model in our case). <br />
+Higher score indicates that the generated images are both diverse and of high quality. <br />
 
 ## Results
 
