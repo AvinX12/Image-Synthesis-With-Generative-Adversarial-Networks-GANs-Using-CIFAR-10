@@ -23,7 +23,19 @@ WORK IN PROGRESS [WIP] <br /> <br />
 
 ## Results
 
+Generative Adversarial Network (GAN) model have performed well. The negative values of the discriminator loss indicate that the discriminator is able to distinguish between real and fake images effectively. The generator loss values indicate the ability of the generator to produce images that are realistic enough to deceive the discriminator. Loss values stabilize towards the later epochs, indicating that the model has reached a stable state. <br />
 
+### Fréchet Inception Distance
+FID score: **5.338638466847664e-13** <br /> <br />
+Extremely low distance between the feature distributions of real and generated images, suggests that the generated images closely resemble the real images in terms of their visual features. <br />
+
+### Inception Score
+IS score: **2591.965195684151** <br /> <br />
+Generated images are of high quality and exhibit a high degree of diversity in terms of their content and appearance. <br />
+
+### Conclusion
+
+Based on these evaluation metrics and inspection of generated images, GAN model appears to have performed well, generating high-quality and diverse images that closely resemble the real ones from CIFAR-10 dataset.
 
 ## References
 
