@@ -35,7 +35,7 @@ Generated images are of high quality and exhibit a high degree of diversity in t
 
 ### Conclusion
 
-Based on these evaluation metrics and inspection of generated images, GAN model appears to have performed well, generating high-quality and diverse images that closely resemble the real ones from CIFAR-10 dataset.
+Based on these evaluation metrics and inspection of generated images, GAN model has performed well, generating high-quality and diverse images that closely resemble the real ones from CIFAR-10 dataset.
 
 ## References
 
