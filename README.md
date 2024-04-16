@@ -23,7 +23,7 @@ WORK IN PROGRESS [WIP] <br /> <br />
 
 ## References
 
-
+1. Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. [click here](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Team Members
 1. Durga Avinash Kodavalla | dk4852 <br />
