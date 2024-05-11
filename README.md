@@ -47,7 +47,7 @@ Low distance between the feature distributions of real and generated images, sug
 
 ### Inception Score
 IS score: **1.0** <br /> <br />
-Generated images are of goo quality and exhibit a high degree of diversity in terms of their content and appearance. <br />
+Generated images are of good quality and exhibit a high degree of diversity in terms of their content and appearance. <br />
 
 Please check [ModelEvaluation.ipynb](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/blob/main/ModelEvaluation.ipynb) file to view how we calculated these scores.
 
