@@ -1,14 +1,13 @@
-# Image-Synthesis-With-Generative-Adversarial-Networks-Using-CIFAR-10
+# Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10
 
 CS-GY 6953 / ECE-GY 7123 Deep Learning || Project || Spring 2024 <br />
 New York University (NYU) Tandon School of Engineering <br /> <br />
 
-$${\color{yellow}**WORK \space IN \space PROGRESS \space [WIP]**}$$ <br /> <br />
+## Abstract
 
-## Problem Statement
-
-The demand for generating realistic images is increasing across various industries, driven by the growing use of technologies like augmented reality, virtual environments, and digital content creation. This prompts the need for advanced deep-learning solutions. This project leverages Generative Adversarial Networks (GANs) to synthesize diverse and photorealistic images from scratch trained on CIFAR- 10 dataset. The project aims to gain a deeper understanding of GAN models, their training dynamics, and the challenges in generating high-quality images. The outcome of this project will contribute to understanding the image synthesis technology and have practical applications in various fields, meeting the current need for realistic image generation and paving the way for future innovations. <br /> <br />
-Please go through the project proposal in [documents](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/tree/main/documents) folder for more info!
+[Abstract should be updated]
+<br /> <br />
+Please go through the [documents](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/tree/main/documents) folder for more info!
 <br />
 
 ## Model Architecture
@@ -43,18 +42,18 @@ Generative Adversarial Network (GAN) model have performed well. The negative val
 Please check [DLProjectNotebook.ipynb](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/blob/main/DLProjectNotebook.ipynb) file to view how we trained this model.
 
 ### Fréchet Inception Distance
-FID score: **1.5350643153800528e-12** <br /> <br />
-Extremely low distance between the feature distributions of real and generated images, suggests that the generated images closely resemble the real images in terms of their visual features. <br />
+FID score: **12.056572421708601** <br /> <br />
+Low distance between the feature distributions of real and generated images, suggests that the generated images are relatively close to the real images in terms of their visual features. <br />
 
 ### Inception Score
-IS score: **2746.9741685895974** <br /> <br />
-Generated images are of high quality and exhibit a high degree of diversity in terms of their content and appearance. <br />
+IS score: **1.0** <br /> <br />
+Generated images are of goo quality and exhibit a high degree of diversity in terms of their content and appearance. <br />
 
 Please check [ModelEvaluation.ipynb](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/blob/main/ModelEvaluation.ipynb) file to view how we calculated these scores.
 
 ### Conclusion
 
-Based on these evaluation metrics and inspection of generated images, GAN model has performed well, generating high-quality and diverse images that closely resemble the real ones from CIFAR-10 dataset.
+Based on these evaluation metrics and inspection of generated images, GAN model has performed well, generating good-quality and diverse images that relatively closely resemble the real ones from CIFAR-10 dataset.
 
 ![GAN Generated Image](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/blob/main/gan_images/100.png)
 
