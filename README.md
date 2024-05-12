@@ -5,7 +5,7 @@ New York University (NYU) Tandon School of Engineering <br /> <br />
 
 ## Abstract
 
-[Abstract should be updated]
+This project thoroughly studies image synthesis with Generative Adversarial Networks (GANs) using CIFAR-10 dataset as the benchmark. GAN architecture trained with a discriminator and generator together, augmented with Wasserstein loss and gradient penalty (WGAN-GP) for improved stability and convergence. Fréchet Inception Distance (FID) and Inception Score (IS) as evaluation metrics, indicating the quality and diversity of generated images. With an FID score of 12.06 and an IS score of 1.0, the generated images closely resemble real CIFAR-10 samples. This project underscores the proficiency of GANs in image synthesis, mainly in conjunction with WGAN-GP. Our findings contribute to advancing and providing valuable insights for future research in this domain.
 <br /> <br />
 Please go through the [documents](https://github.com/AvinX12/Image-Synthesis-With-Generative-Adversarial-Networks-GANs-Using-CIFAR-10/tree/main/documents) folder for more info!
 <br />
@@ -62,6 +62,10 @@ Based on these evaluation metrics and inspection of generated images, GAN model 
 1. Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. [click here](https://www.cs.toronto.edu/~kriz/cifar.html)
 2. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio. (2014). Generative Adversarial Networks. [click here](https://arxiv.org/abs/1406.2661)
 3. T.Karras,T.Aila,S.Laine,andJ.Lehtinen,Progressive Growing of GANs for Improved Quality, Stability, and Variation. 2018. [click here](https://arxiv.org/abs/1710.10196)
+4. E. Gallagher and B. O’Sullivan, ”Reconstructing Dystopian Urban Scenes using Generative Adversarial Networks,” in Proceedings of the Irish Conference on Artificial Intelligence and Cognitive Science, 2019. [click here]()
+5. Y. Chong, J. Lee, D. E. Carlson, and A. W. Rivenson, ”Effectively Unbiased FID and Inception Score and Where to Find Them,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. [click here]()
+6. A. Radford, L. Metz, and S. Chintala, ”Unsupervised representation learning with deep convolutional generative adversarial networks,” arXiv:1512.03385, 2015. [click here](https://arxiv.org/pdf/2110.01442)
+7. I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, and Y. Bengio, ”Generative adversarial nets,” arXiv:1406.2661, 2014. [click here](https://arxiv.org/pdf/1406.2661)
 
 ## Team Members
 1. Durga Avinash Kodavalla | dk4852 <br />
